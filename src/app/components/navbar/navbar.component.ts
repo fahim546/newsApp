@@ -43,3 +43,4 @@ export class NavbarComponent implements OnInit {
     this.currentSubSection = $event;
     this.store.dispatch(this.newsActions.LoadSectionNews(this.subsections))   //new fromActions.FilterSubSection($event));
 }
+}
